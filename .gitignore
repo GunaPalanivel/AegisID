@@ -8,6 +8,8 @@ build/
 # Environment files
 .env
 *.env
+.env.local
+*.env.local
 
 # Wallet storage (dynamic data, not source code)
 wallet/wallet.json
