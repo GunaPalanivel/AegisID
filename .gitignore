@@ -1,0 +1,31 @@
+# Node modules
+node_modules/
+
+# Build files
+dist/
+build/
+
+# Environment files
+.env
+*.env
+
+# Wallet storage (dynamic data, not source code)
+wallet/wallet.json
+
+# Logs
+*.log
+
+# IDE configs
+.vscode/
+.idea/
+
+# Temporary and system files
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Typescript artifacts
+*.tsbuildinfo
+
+# Coverage
+coverage/
