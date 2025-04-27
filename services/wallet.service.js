@@ -2,7 +2,8 @@ import { promises as fs } from "fs";
 import path from "path";
 import { randomBytes, createECDH } from "crypto";
 import { encrypt, decrypt } from "./crypto-utils.js"; // make sure the extension is .js when using ES modules
-import config from "../config.js"; // 📢 Import the new config
+import config from "../constants/config.js";
+
 
 import { fileURLToPath } from "url";
 

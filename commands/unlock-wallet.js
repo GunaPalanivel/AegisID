@@ -19,12 +19,12 @@ async function unlockWallet() {
     const wallet = await loadWallet(password);
 
     console.log("✅ Wallet successfully unlocked!");
-    console.log("Your DID: ", wallet.did);
-    console.log("Your Public Key: ", wallet.publicKey);
+    console.log("🔹 Your DID: ", wallet.did);
+    console.log("🔹 Your Public Key: ", wallet.publicKey);
   } catch (error) {
     console.error("❌ Failed to unlock wallet:", error.message);
   }
 }
 
-// Important: Export like this for CommonJS
+// Export as CommonJS module
 module.exports = unlockWallet;
